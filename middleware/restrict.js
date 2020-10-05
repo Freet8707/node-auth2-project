@@ -18,7 +18,6 @@ function restrict() {
                 }
 
                 req.token = decoded
-                console.log(req.token)
 
                 next()
             })
